@@ -9,7 +9,7 @@ import { Home, About, Account } from './pages';
 export default function App() {
   return (
     <Router>
-      <Navbar collapseOnSelect bg='dark' expand='md' className='mb-3'>
+      <Navbar collapseOnSelect bg='dark' expand='md'>
         <Navbar.Brand className='font-weight-bold text-muted'>TWIT(ER)</Navbar.Brand>
         <Nav className='mr-auto'>
           <Nav.Item>
